@@ -19,4 +19,8 @@ RSpec.describe RomanNumeralConerter do
   Then { roman_numeral_converter.convert(15) == "XV" }
   Then { roman_numeral_converter.convert(19) == "XIX" }
   Then { roman_numeral_converter.convert(20) == "XX" }
+  Then { roman_numeral_converter.convert(40) == "XL" }
+  Then { roman_numeral_converter.convert(50) == "L" }
+  Then { roman_numeral_converter.convert(90) == "XC" }
+  Then { roman_numeral_converter.convert(100) == "C" }
 end
