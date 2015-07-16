@@ -5,4 +5,5 @@ RSpec.describe RomanNumeralConerter do
   Given(:roman_numeral_converter) { RomanNumeralConerter.new }
 
   Then { roman_numeral_converter.convert(1) == "I" }
+  Then { roman_numeral_converter.convert(2) == "II" }
 end
