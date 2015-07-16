@@ -7,6 +7,7 @@ RSpec.describe RomanNumeralConerter do
   Then { roman_numeral_converter.convert(1) == "I" }
   Then { roman_numeral_converter.convert(2) == "II" }
   Then { roman_numeral_converter.convert(3) == "III" }
+  Then { roman_numeral_converter.convert(4) == "IV" }
   Then { roman_numeral_converter.convert(5) == "V" }
   Then { roman_numeral_converter.convert(6) == "VI" }
   Then { roman_numeral_converter.convert(7) == "VII" }

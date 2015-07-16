@@ -9,6 +9,10 @@ class RomanNumeralConerter
       result << "V"
       number -= 5
     end
+    if number == 4
+      result << "IV"
+      number -= 4
+    end
     result << "I" * number
     result
   end
