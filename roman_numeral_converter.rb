@@ -1,7 +1,7 @@
 class RomanNumeralConerter
   def convert(number)
     result = ""
-    if number == 5
+    if number >= 5
       result = "V"
       number -= 5
     end
