@@ -26,4 +26,13 @@ RSpec.describe RomanNumeralConerter do
   Then { roman_numeral_converter.convert(500) == "D" }
   Then { roman_numeral_converter.convert(900) == "CM" }
   Then { roman_numeral_converter.convert(1000) == "M" }
+
+  Then { roman_numeral_converter.convert(2015) == "MMXV" }
+  Then { roman_numeral_converter.convert(501) == "DI" }
+  Then { roman_numeral_converter.convert(707) == "DCCVII" }
+  Then { roman_numeral_converter.convert(890) == "DCCCXC" }
+  Then { roman_numeral_converter.convert(1500) == "MD" }
+  Then { roman_numeral_converter.convert(1800) == "MDCCC" }
+  Then { roman_numeral_converter.convert(999) == "CMXCIX" }
+  Then { roman_numeral_converter.convert(444) == "CDXLIV" }
 end
