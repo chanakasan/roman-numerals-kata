@@ -23,4 +23,8 @@ RSpec.describe RomanNumeralConerter do
   Then { roman_numeral_converter.convert(50) == "L" }
   Then { roman_numeral_converter.convert(90) == "XC" }
   Then { roman_numeral_converter.convert(100) == "C" }
+  Then { roman_numeral_converter.convert(400) == "CD" }
+  Then { roman_numeral_converter.convert(500) == "D" }
+  Then { roman_numeral_converter.convert(900) == "CM" }
+  Then { roman_numeral_converter.convert(1000) == "M" }
 end

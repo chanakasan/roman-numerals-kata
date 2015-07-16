@@ -1,5 +1,9 @@
 class RomanNumeralConerter
   ROMAN_SYMBOLS = [
+    [1000, "M"],
+    [900, "CM"],
+    [500, "D"],
+    [400, "CD"],
     [100, "C"],
     [90, "XC"],
     [50, "L"],
