@@ -14,7 +14,6 @@ RSpec.describe RomanNumeralConerter do
   Then { roman_numeral_converter.convert(8) == "VIII" }
   Then { roman_numeral_converter.convert(9) == "IX" }
   Then { roman_numeral_converter.convert(10) == "X" }
-  Then { roman_numeral_converter.convert(11) == "XI" }
   Then { roman_numeral_converter.convert(14) == "XIV" }
   Then { roman_numeral_converter.convert(15) == "XV" }
   Then { roman_numeral_converter.convert(19) == "XIX" }
